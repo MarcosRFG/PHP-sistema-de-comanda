@@ -1,0 +1,9 @@
+﻿extrutura:
+
+TABELAS: 
+	tbl_admin: col_id, col_login, col_pass
+	tbl_produto:  col_id, col_nome, col_preco, col_cod_produto
+	tbl_comanda: col_id, col_number_comanda, comanda_is_used
+	tbl_venda: col_id, comanda_venda, col_venda_is_open, col_10Porcent, col_value_total
+	tbl_venda_historical: col_id, col_id_venda_hist, col_id_product_hist, col_name_product_hist, col_preco_product_hist, col_quantidade_prod
+	
